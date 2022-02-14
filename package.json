@@ -1,0 +1,28 @@
+{
+  "name": "jerscript",
+  "version": "1.0.0",
+  "description": "JERscript",
+  "main": "index.js",
+  "scripts": {
+    "gen": "npm run gen:parser",
+    "gen:parser": "npx nearleyc lib/grammar/jer.ne --out lib/grammar/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EclipseLikesSpace/JERscript.git"
+  },
+  "keywords": [
+    "scripting"
+  ],
+  "author": "EclipseLikesSpace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EclipseLikesSpace/JERscript/issues"
+  },
+  "homepage": "https://github.com/EclipseLikesSpace/JERscript#readme",
+  "dependencies": {
+    "moo": "^0.5.1",
+    "nearley": "^2.20.1",
+    "yargs": "^17.3.1"
+  }
+}

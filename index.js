@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+const lexer = require('./lib/lexer');
+const parser = require('./lib/parser');
+
+const fs = require('fs');
+const { parse } = require('path');
+const argv = require("yargs/yargs")(process.argv.slice(2))
+  .option("file", {
+    alias: "f",
+    describe: "Save the HTML to disk",
+  })
+  .demandOption(["file"], "Please specify the file")
+  .help().argv;
+
+(async () => {
+    const data = ((await fs.readFileSync(argv.file, "utf8")).toString()).replace(/\r/g, "");
+    console.log(parser(data));
+})();
