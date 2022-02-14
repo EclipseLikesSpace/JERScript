@@ -1,1 +1,2 @@
-print("Hello world!")
+statement = "Hello world & Jerscript!"
+print(statement)
