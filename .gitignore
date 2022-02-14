@@ -1,2 +1,5 @@
+# SO MANY NODE MODULES!
 node_modules/
+
+# Ignore logs
 log/*.log
