@@ -28,7 +28,7 @@ var_assign
                 return {
                     type: "var_assign",
                     var_name: data[0],
-                    var_value: data[4] ? data[4][0]: []
+                    var_value: data[4]
                 }
             }
         %}
@@ -40,7 +40,7 @@ fun_call
                 return {
                     type: "fun_call",
                     fun_name: data[0],
-                    arguments: data[4]
+                    arguments: data[4] ? data[4][0]: []
                 }
             }
         %}

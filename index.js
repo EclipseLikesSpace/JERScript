@@ -2,6 +2,7 @@
 
 const lexer = require('./lib/lexer');
 const parser = require('./lib/parser');
+const generator = require('./lib/generator');
 
 const fs = require('fs');
 const { parse } = require('path');
@@ -15,5 +16,7 @@ const argv = require("yargs/yargs")(process.argv.slice(2))
 
 (async () => {
     const data = ((await fs.readFileSync(argv.file, "utf8")).toString());
-    console.log(parser(data));
+    const ast = parser(data);
+
+    generator(ast);
 })();
