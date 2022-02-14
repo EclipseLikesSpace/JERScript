@@ -76,7 +76,7 @@ expr
     | %identifier {% id %}
 
 # Optional whitespace
-_ -> %WS:*
+_ -> %ws:*
 
 # Mandatory whitespace
-__ -> %WS:+
+__ -> %ws:+
