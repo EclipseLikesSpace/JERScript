@@ -1,2 +1,2 @@
-statement - "Hello world & Jerscript!"
+statement-"Hello world & Jerscript!"
 print(statement)

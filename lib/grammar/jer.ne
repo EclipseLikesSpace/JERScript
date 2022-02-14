@@ -10,7 +10,7 @@ statements
                 return [data[0]];
             }
         %}
-    | statement %newline statement
+    | statements %newline statement
         {%
             (data) => {
                 return [...data[0], data[2]];
