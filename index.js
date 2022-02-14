@@ -14,6 +14,6 @@ const argv = require("yargs/yargs")(process.argv.slice(2))
   .help().argv;
 
 (async () => {
-    const data = ((await fs.readFileSync(argv.file, "utf8")).toString()).replace(/\r/g, "");
+    const data = ((await fs.readFileSync(argv.file, "utf8")).toString());
     console.log(parser(data));
 })();
