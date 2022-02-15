@@ -1,7 +1,9 @@
-a-"Hello world"
-jer-"JERScript!"
-write(x "and" jer)
+a="Hello world"
+jer="JERScript!"
+write(a "and" jer)
 
-concat - (x y) -> {
-    print(x y)
+combine = (x y) => {
+write(x y)
 }
+
+combine(a jer)

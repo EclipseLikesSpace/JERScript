@@ -4,16 +4,16 @@ const myLexer = require("./../lexer")
 @lexer myLexer
 
 statements
-    -> statement
+    -> _ statement _
         {%
             (data) => {
-                return [data[0]];
+                return [data[1]];
             }
         %}
-    | statements %newline statement
+    | statements %newline _ statement _
         {%
             (data) => {
-                return [...data[0], data[2]];
+                return [...data[0], data[3]];
             }
         %}
 
@@ -76,12 +76,12 @@ expr
     | %identifier {% id %}
     | lambda {% id %}
 
-lambda -> %lparen _ param_list _ %rparen _ %longarrow _ lambda_body
+lambda -> %lparen _ (param_list):? _ %rparen _ %longarrow _ lambda_body
     {%
         (data) => {
             return {
                 type: "lambda",
-                parameters: data[2],
+                parameters: data[2] ? data[2][0] : [],
                 body: data[8]
             }
         }
@@ -110,6 +110,12 @@ lambda_body
                 return data[3]
             }
         %}
+
+# Multiline Optional Whitespace
+_ml -> (%ws | %newline):*
+
+# Multiline mandatory whitespace
+__ml -> (%ws | %newline):+
 
 # Optional whitespace
 _ -> %ws:*
