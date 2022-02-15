@@ -9,4 +9,6 @@ write(a "multiplied by" b "equals to" c "proving that variable math works!")
 
 write("9 multiplied by 9 divided by 6 is equivalent to" math(math("9*9") "/ 6") "which also proves that inline math works!")
 
-write(replace("mRmEmGmEmXm mamlmsmom mwmomrmkms" "/m/g"))
+d - () -> {
+    
+}

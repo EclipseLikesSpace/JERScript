@@ -75,6 +75,9 @@ expr
     | %number {% id %}
     | %identifier {% id %}
     | fun_call {% id %}
+    | lambda {% id %}
+
+lambda -> ()
 
 # Optional whitespace
 _ -> %ws:*
