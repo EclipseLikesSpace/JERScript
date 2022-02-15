@@ -6,7 +6,7 @@
   "scripts": {
     "gen": "npm run gen:parser",
     "gen:parser": "npx nearleyc lib/grammar/jer.ne --out lib/grammar/index.js",
-    "test": "npm run gen && node . --file=examples/hello.jer"
+    "test": "npm run gen && node . --file=examples/test.jer"
   },
   "repository": {
     "type": "git",
