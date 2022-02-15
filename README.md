@@ -1,5 +1,12 @@
 ![Thumbnail](https://github.com/EclipseLikesSpace/JERscript/blob/master/images/jerscript%20thumb.png)
+
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EclipseLikesSpace/JERscript?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues-raw/JERScript/JERScript?style=flat-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/JERScript/JERScript?style=flat-square)
+![GitHub](https://img.shields.io/github/license/JERScript/JERScript?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/JERScript/JERScript?style=flat-square)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/JERScript/JERScript?style=flat-square)
+
 # JERscript
 A [scripting language](https://www.google.com/search?q=scripting+language) inspired by [Lua](https://github.com/lua/lua)'s simplicity and [Python](https://www.python.org/) syntax completely made in [Javascript](https://nodejs.org/en/), with [Moo](https://www.npmjs.com/package/moo) and [Nearley](https://www.npmjs.com/package/nearley)!
 
