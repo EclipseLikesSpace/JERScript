@@ -93,7 +93,7 @@ param_list
             (data) => {
                 const rpieces = data[1];
                 const params = rpieces.map(piece => piece[1]);
-                return [data[0], ...restParams];
+                return [data[0], ...params];
             }
         %}
 
