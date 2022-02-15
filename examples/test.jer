@@ -1,26 +1,28 @@
-// Examples
-hello-"Hello"
-world-" world, "
-jer-" Jerscript!"
+// Fibonacci Sequence
 
-// Concat but 4 arguments!
-concatfour-(a b c d)->{
-    x - concat(a b)
-    y - concat(c d)
-    z - concat(x y)
+fib-(n)->{
+    // Initalize the functions
+
+    // A returns one, as the final statement in a lambda function is always a return
+    a-()->1
+    // If statement to check if N is equal to 2, go to A otherwise go to C
+    b-()-> {
+        if (eq(n 2) a c)
+    }
+    c-()->{
+        evaluate(fib(evaluate(n 1 "-")) fib(evaluate(n 2 "-")) "+")
+    }
+
+    // Initalize the main statement
+    if (eq(n 1) a b)
 }
 
-// Write to console with `hello` `world` "and" and `jer`
-// Expected output: "Hello world, and Jerscript!"
-write(concatfour(hello world "and" jer))
+write(fib(9))
 
-// Concat but doubler!
-
-// The final statement in a lambda function is always a return
-doubler-(a b)->{
-    // Below is returned
-    concatfour(a a b b)
+// Square Root
+sqrt-(n)-> {
+    // Returns n * n
+    evaluate(n n "*")
 }
 
-// Expected output: "hellohelloworldworld"
-write(doubler("hello" "world"))
+write(sqrt(9))
