@@ -1,11 +1,26 @@
+// Examples
 hello-"Hello"
 world-" world, "
 jer-" Jerscript!"
 
+// Concat but 4 arguments!
 concatfour-(a b c d)->{
     x - concat(a b)
     y - concat(c d)
     z - concat(x y)
 }
 
+// Write to console with `hello` `world` "and" and `jer`
+// Expected output: "Hello world, and Jerscript!"
 write(concatfour(hello world "and" jer))
+
+// Concat but doubler!
+
+// The final statement in a lambda function is always a return
+doubler-(a b)->{
+    // Below is returned
+    concatfour(a a b b)
+}
+
+// Expected output: "hellohelloworldworld"
+write(doubler("hello" "world"))
