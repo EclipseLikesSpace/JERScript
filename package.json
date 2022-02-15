@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/EclipseLikesSpace/JERscript#readme",
   "dependencies": {
+    "mathjs": "^10.1.1",
     "moo": "^0.5.1",
     "nearley": "^2.20.1",
     "yargs": "^17.3.1"
