@@ -1,9 +1,11 @@
-a="Test 1"
-b="Test 2"
-c="Test"
+hello-"Hello"
+world-" world, "
+jer-" Jerscript!"
 
-write("Before application" a b c)
-apply=(x y)=>{
-write(x y)
+concatfour-(a b c d)->{
+    x - concat(a b)
+    y - concat(c d)
+    z - concat(x y)
 }
-c=apply(c 3)
+
+write(concatfour(hello world "and" jer))
