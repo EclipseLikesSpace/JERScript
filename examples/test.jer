@@ -1,0 +1,7 @@
+statement-"Hello world!"
+
+task add(x, y) {
+    return x = y;
+}
+
+write(add(1 2))
