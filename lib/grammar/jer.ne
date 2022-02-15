@@ -74,10 +74,42 @@ expr
     -> %string {% id %}
     | %number {% id %}
     | %identifier {% id %}
-    | fun_call {% id %}
     | lambda {% id %}
 
-lambda -> ()
+lambda -> %lparen _ param_list _ %rparen _ %longarrow _ lambda_body
+    {%
+        (data) => {
+            return {
+                type: "lambda",
+                parameters: data[2],
+                body: data[8]
+            }
+        }
+    %}
+    
+param_list
+    -> %identifier (__ %identifier):*
+        {%
+            (data) => {
+                const rpieces = data[1];
+                const params = rpieces.map(piece => piece[1]);
+                return [data[0], ...restParams];
+            }
+        %}
+
+lambda_body
+    -> expr 
+        {%
+            (data) => {
+                return [data[0]];
+            }
+        %}
+    | %lbrace _ %newline statements %newline _ %rbrace
+        {%
+            (data) => {
+                return data[3]
+            }
+        %}
 
 # Optional whitespace
 _ -> %ws:*
