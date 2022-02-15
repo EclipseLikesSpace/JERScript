@@ -35,15 +35,3 @@ We chose Javascript because of the 3 main reasons:
 
 ### Why Python/Lua?
 At first, Eclipse loved the idea of Lua's simplicity and C++. Julian didn't really like how we were making a scripting language based of off Lua. We argued for a bit and eventually landed with Lua's simplicity and Python's syntax
-
-### Can the generator generate code aside from Node Javascript?
-We're working on it, here is the current table for supported languages:
-| Language  | Supported | Notes |
-| ------------- |:-------------:|:-------------:|
-|Javascript|Partial Support| Currently being worked on |
-|Python|Support Planned||
-|Ruby|Support Planned||
-|Lua|Support Planned||
-|Bash|No Support|May change in the future|
-|C|No Support||
-|C++|No Support||
