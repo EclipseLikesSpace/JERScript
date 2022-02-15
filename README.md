@@ -1,7 +1,7 @@
 ![Thumbnail](https://github.com/EclipseLikesSpace/JERscript/blob/master/images/jerscript%20thumb.png)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EclipseLikesSpace/JERscript?style=flat-square)
 # JERscript
-A [scripting language](https://www.google.com/search?q=scripting+language) inspired by [Lua](https://github.com/lua/lua)'s simplicity and [Python](https://www.python.org/) syntax
+A [scripting language](https://www.google.com/search?q=scripting+language) inspired by [Lua](https://github.com/lua/lua)'s simplicity and [Python](https://www.python.org/) syntax completely made in [Javascript](https://nodejs.org/en/), with [Moo](https://www.npmjs.com/package/moo) and [Nearley](https://www.npmjs.com/package/nearley)!
 
 Feel free to contribute, make sure to star, fork and watch!
 
