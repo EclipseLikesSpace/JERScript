@@ -1,0 +1,6 @@
+x-2
+
+repeat(100 ()-> {
+    write(x)
+    x-math(x "* 2")
+})

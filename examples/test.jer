@@ -17,12 +17,10 @@ fib-(n)->{
     if (eq(n 1) a b)
 }
 
-write(fib(9))
+i-0
+repeat(10 ()->{
+    i-math(concat(i "+ 1"))
+    write(fib(i))
+})
 
-// Square Root
-sqrt-(n)-> {
-    // Returns n * n
-    evaluate(n n "*")
-}
-
-write(sqrt(9))
+write(evaluate("8 * 4"))

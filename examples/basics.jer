@@ -1,0 +1,32 @@
+function-(name)-> {
+  // This is a comment
+  // function should write "hello " then the user's name
+  // The final statement in a function is always returned
+  write("Hello" name)
+}
+
+function("Eclipse")
+
+// You can run math functions with math()
+write(math("pi * 2"))
+
+// Do not use evaluate(), it is deprecated!
+// Returns 6
+write(evaluate(1 5 "+"))
+
+// Variables and functions are declared using `-`
+hello-"Hello"
+jerscript-"Jerscript!"
+write(hello jerscript)
+// Returns "Hello Jerscript!"
+// Use concat() to remove the spaces
+
+concatfour-(a b c d)-> {
+  x-concat(a b)
+  y-concat(c d)
+  // Final statement is always returned, no need to set variables
+  concat(x y)
+}
+
+// Returns "HelloHelloJerscript!Jerscript!"
+concatfour(hello hello jerscript jerscript)
