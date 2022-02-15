@@ -74,6 +74,7 @@ expr
     -> %string {% id %}
     | %number {% id %}
     | %identifier {% id %}
+    | fun_call {% id %}
     | lambda {% id %}
 
 lambda -> %lparen _ (param_list):? _ %rparen _ %longarrow _ lambda_body

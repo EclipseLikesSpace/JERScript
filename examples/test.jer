@@ -1,9 +1,9 @@
-a="Hello world"
-jer="JERScript!"
-write(a "and" jer)
+a="Test 1"
+b="Test 2"
+c="Test"
 
-combine = (x y) => {
+write("Before application" a b c)
+apply=(x y)=>{
 write(x y)
 }
-
-combine(a jer)
+c=apply(c 3)
