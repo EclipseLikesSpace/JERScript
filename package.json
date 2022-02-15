@@ -22,8 +22,11 @@
   },
   "homepage": "https://github.com/EclipseLikesSpace/JERscript#readme",
   "dependencies": {
+    "chalk": "^5.0.0",
+    "figlet": "^1.5.2",
     "mathjs": "^10.1.1",
     "moo": "^0.5.1",
+    "nanospinner": "^1.0.0",
     "nearley": "^2.20.1",
     "yargs": "^17.3.1"
   }

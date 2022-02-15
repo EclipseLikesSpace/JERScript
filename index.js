@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
+// Imports
+const chalk = import('chalk')
+const figlet = require('figlet')
+
+// ./lib
 const lexer = require('./lib/lexer');
 const parser = require('./lib/parser');
 const generator = require('./lib/generator');
