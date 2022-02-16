@@ -1,15 +1,15 @@
 // Fibonacci Sequence
 
-fib-(n)->{
+fib > (n)->{
     // Initalize the functions
 
     // A returns one, as the final statement in a lambda function is always a return
-    a-()->1
+    a>()->1
     // If statement to check if N is equal to 2, go to A otherwise go to C
-    b-()-> {
+    b>()-> {
         if (eq(n 2) a c)
     }
-    c-()->{
+    c>()->{
         evaluate(fib(evaluate(n 1 "-")) fib(evaluate(n 2 "-")) "+")
     }
 
@@ -17,10 +17,16 @@ fib-(n)->{
     if (eq(n 1) a b)
 }
 
-i-0
+i>0
 repeat(10 ()->{
-    i-math(concat(i "+ 1"))
+    i>math(concat(i "+ 1"))
     write(fib(i))
 })
+x>true
 
-write(evaluate("8 * 4"))
+circumfrence > (diameter) ->{
+    math(diameter "* pi")
+}
+
+write(x)
+write(circumfrence(2))

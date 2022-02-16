@@ -75,6 +75,7 @@ expr
     -> %string {% id %}
     | %number {% id %}
     | %identifier {% id %}
+    | %boolean {% id %}
     | fun_call {% id %}
     | lambda {% id %}
 
