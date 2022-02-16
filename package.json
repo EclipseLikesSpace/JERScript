@@ -1,6 +1,6 @@
 {
-  "name": "jerscript",
-  "version": "1.0.0",
+  "name": "@jerscript/jerscript",
+  "version": "1.0.1",
   "description": "JERscript",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,10 @@
     "nanospinner": "^1.0.0",
     "nearley": "^2.20.1",
     "yargs": "^17.3.1"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }
