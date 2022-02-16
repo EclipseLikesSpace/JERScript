@@ -77,7 +77,18 @@ expr
     | %identifier {% id %}
     | %boolean {% id %}
     | fun_call {% id %}
+    | arrays {% id %}
     | lambda {% id %}
+
+arrays -> %lbracket _ (expr _):* %rbracket
+    {%
+        (data) => {
+            return {
+                type: "arrays",
+                elements: data[2] ? data[2][0]: []
+            }
+        }
+    %}
 
 lambda -> %lparen _ (param_list):? _ %rparen _ %longarrow _ lambda_body
     {%

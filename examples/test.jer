@@ -30,3 +30,6 @@ circumfrence > (diameter) ->{
 
 write(x)
 write(circumfrence(2))
+
+d > ["Test""Test 2"]
+//write(getArrayLength(d))
