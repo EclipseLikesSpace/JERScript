@@ -41,3 +41,13 @@ e>(d)->{
 
 f>floor(random(0 1))
 write(e(f))
+
+sinWave > (x)->{
+    math(x "* sin(x)")
+}
+
+g-0
+repeat(100 ()->{
+    g > math(concat(g "+ .1"))
+    write(sinWave(g))
+})

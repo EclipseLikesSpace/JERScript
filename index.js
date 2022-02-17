@@ -1,20 +1,19 @@
 #!/usr/bin/env node
 
 // Imports
-import chalk from 'chalk';
+const chalk = import('chalk')
 
 // ./lib
-import lexer from './lib/lexer/index.js';
-import parser from './lib/parser/index.js';
-import generator from './lib/generator/index.js';
+const lexer = require('./lib/lexer');
+const parser = require('./lib/parser');
+const generator = require('./lib/generator');
 
 // Yargonaut styling
-import yargonaut from 'yargonaut';
-yargonaut
+require('yargonaut')
   .style('blue')
   .errorsStyle('red');
 
-import yargs from 'yargs';
+const yargs = require("yargs");
 
 const fs = require('fs');
 const { parse } = require('path');
@@ -27,10 +26,10 @@ let argv = yargs(process.argv.slice(2))
   .help().argv;
 
 (async () => {
-  console.log(chalk.blue("Reading file..."));
+  console.log("Reading file...");
   const data = ((await fs.readFileSync(argv.file, "utf8")).toString());
-  console.log(("Parsing file..."));
+  console.log("Parsing file...");
   const ast = parser(data);
-  console.log(chalk.blue("Running..."));
+  console.log("Running...");
   generator(ast);
 })();
