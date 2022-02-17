@@ -1,6 +1,6 @@
 {
   "name": "@jerscript/jerscript",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "JERscript",
   "main": "index.js",
   "scripts": {
