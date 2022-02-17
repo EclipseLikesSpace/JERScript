@@ -6,6 +6,7 @@
 ![GitHub](https://img.shields.io/github/license/JERScript/JERScript?style=flat-square)
 ![GitHub Repo stars](https://img.shields.io/github/stars/JERScript/JERScript?style=flat-square)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/JERScript/JERScript?style=flat-square)
+![Discord](https://img.shields.io/discord/942973329386655805?label=discord&logo=discord&logoColor=%23ffffff&style=flat-square)
 
 # JERscript
 A [scripting language](https://www.google.com/search?q=scripting+language) inspired by [Lua](https://github.com/lua/lua)'s simplicity and [Python](https://www.python.org/) syntax completely made in [Javascript](https://nodejs.org/en/), with [Moo](https://www.npmjs.com/package/moo) and [Nearley](https://www.npmjs.com/package/nearley)!
@@ -22,6 +23,33 @@ MIT
 - For/while
 - Functions
 - Proper JS generation
+
+## Chat
+You can ask for help, chat or generally hang out in our [Discord server](https://discord.gg/gCGmraBRQ8)!
+
+## Usage/Examples
+
+```
+// Fibonacci Sequence
+
+fib-(n)->{
+    // Initalize the functions
+
+    // A returns one, as the final statement in a lambda function is always a return
+    a-()->1
+    // If statement to check if N is equal to 2, go to A otherwise go to C
+    b-()-> {
+        if (eq(n 2) a c)
+    }
+    c-()->{
+        evaluate(fib(evaluate(n 1 "-")) fib(evaluate(n 2 "-")) "+")
+    }
+
+    // Initalize the main statement
+    if (eq(n 1) a b)
+}
+fib(10)
+```
 
 # FAQ
 ### What does JER stand for?
