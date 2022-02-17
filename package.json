@@ -1,5 +1,5 @@
 {
-  "name": "@jerscript/jerscript",
+  "name": "jerscript",
   "version": "1.1.0",
   "description": "JERscript",
   "main": "index.js",
