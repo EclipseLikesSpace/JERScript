@@ -10,7 +10,7 @@ fib > (n)->{
         if (eq(n 2) a c)
     }
     c>()->{
-        evaluate(fib(evaluate(n 1 "-")) fib(evaluate(n 2 "-")) "+")
+        math(fib(math(n "-1")) "+" fib(math(n "-2")))
     }
 
     // Initalize the main statement
@@ -31,5 +31,13 @@ circumfrence > (diameter) ->{
 write(x)
 write(circumfrence(2))
 
-d > ["Test""Test 2"]
+//d > ["Test" "Test 2"]
 //write(getArrayLength(d))
+
+
+e>(d)->{
+    if(eq(d 1) ()->self("eclipse") ()->self("rehan") )
+}
+
+f>floor(random(0 1))
+write(e(f))

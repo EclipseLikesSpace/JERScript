@@ -35,7 +35,7 @@ var_assign
         %}
 
 fun_call
-    -> %identifier _ %lparen _ (arg_list _):? %rparen
+    -> %identifier _ %lparen _ml (arg_list _ml):? %rparen
         {%
             (data) => {
                 return {
