@@ -34,7 +34,7 @@ circumfrence > (diameter) ->{
 write(x)
 write(circumfrence(2))
 
-//d > ["Test" "Test 2"]
+//d > [ "Test" "Test2"]
 //write(getArrayLength(d))
 
 
@@ -43,4 +43,6 @@ e>(d)->{
 }
 
 f>floor(random(0 1))
-write(e(f))
+write(e(f) "is the best at programming!")
+
+write(tl_test("Testing out a"))

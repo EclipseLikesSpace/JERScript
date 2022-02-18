@@ -91,7 +91,7 @@ use -> "use" __ %string _
         }
     %}
 
-arrays -> %lbracket _ (expr _):* %rbracket
+arrays -> %lbracket _ (__ expr):* %rbracket
     {%
         (data) => {
             return {
