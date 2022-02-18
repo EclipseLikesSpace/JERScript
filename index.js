@@ -20,16 +20,22 @@ const { parse } = require('path');
 let argv = yargs(process.argv.slice(2))
   .option("file", {
     alias: "f",
-    describe: "Save the HTML to disk",
+    describe: "JER file to interpret",
+  })
+  .option("output", {
+    alias: "o",
+    describe: "Where to output JERC file",
   })
   .demandOption(["file"], "Please specify the file")
   .help().argv;
 
 (async () => {
-  console.log("Reading file...");
   const data = ((await fs.readFileSync(argv.file, "utf8")).toString());
-  console.log("Parsing file...");
   const ast = parser(data);
-  console.log("Running...");
-  generator(ast);
+  let isCompiled = false
+  if (argv.output) {
+    isCompiled = true
+  }
+
+  generator(ast, isCompiled, argv.output);
 })();
