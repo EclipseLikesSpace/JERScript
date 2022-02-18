@@ -1,20 +1,20 @@
-![Thumbnail](images/jerscript thumb.png)
+[![Thumbnail](images/jerscript_thumb.png)](https://github.com/JERScript/JERscript)
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EclipseLikesSpace/JERscript?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues-raw/JERScript/JERScript?style=flat-square)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/JERScript/JERScript?style=flat-square)
-![GitHub](https://img.shields.io/github/license/JERScript/JERScript?style=flat-square)
-![GitHub Repo stars](https://img.shields.io/github/stars/JERScript/JERScript?style=flat-square)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/JERScript/JERScript?style=flat-square)
-![Discord](https://img.shields.io/discord/942973329386655805?label=discord&logo=discord&logoColor=%23ffffff&style=flat-square)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EclipseLikesSpace/JERscript?style=flat-square)](https://github.com/JERScript/JERscript)
+[![GitHub Issue Count](https://img.shields.io/github/issues-raw/JERScript/JERScript?style=flat-square)](https://github.com/JERScript/JERscript/issues)
+[![GitHub PR Count](https://img.shields.io/github/issues-pr/JERScript/JERScript?style=flat-square)](https://github.com/JERScript/JERscript/pulls)
+[![Code License](https://img.shields.io/github/license/JERScript/JERScript?style=flat-square)](https://github.com/JERScript/JERscript/blob/master/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/JERScript/JERScript?style=flat-square)](https://github.com/JERScript/JERscript/stargazers)
+[![Latest Version](https://img.shields.io/github/package-json/v/JERScript/JERScript?style=flat-square)](https://github.com/jerbear2008/JERscript/releases)
+[![Discord](https://img.shields.io/discord/942973329386655805?label=discord&logo=discord&logoColor=%23ffffff&style=flat-square)](https://discord.gg/gCGmraBRQ8)
 
 # JERscript
 A [scripting language](https://www.google.com/search?q=scripting+language) inspired by [Lua](https://github.com/lua/lua)'s simplicity and [Python](https://www.python.org/) syntax completely made in [Javascript](https://nodejs.org/en/), with [Moo](https://www.npmjs.com/package/moo) and [Nearley](https://www.npmjs.com/package/nearley)!
 
-Feel free to contribute, make sure to star, fork and watch!
+Feel free to contribute, make sure to [star](https://github.com/JERScript/JERscript/stargazers), [fork](https://github.com/JERScript/JERscript/fork) and [watch](https://github.com/JERScript/JERscript/watchers)!
 
 ## License
-MIT
+We use the [MIT](https://github.com/JERScript/JERscript/blob/master/LICENSE) license. This means that you are free to modify and/or distribute JERscript. You can also use it in other software, which can be open or closed source. The only requirement is that you include the copyright and license notice in your product. The JERscript developers are not liable for JERscript, and offer no warranty. This is not legal advice, see the full details in the [LICENSE](https://github.com/JERScript/JERscript/blob/master/LICENSE) file (it's very short).
 
 ## Roadmap
 - Object Oriented Programming
@@ -57,9 +57,9 @@ It stands for: Julian, Eclipse, Rehan (or RStar, depending on what they think)
 
 ### Why Javascript?
 We chose Javascript because of the 3 main reasons:
-- We aren't good with C, C++, Java, or any compiled language for that matter (Except for eclipse with C#)
-- We are all good with Javascript and Node.js, we knew the language pretty well or had a master's degree on it
-- Even if we did choose a compiled language (example: C++), we'd still suck at it because we can't compile to multiple platforms (We can, it's just that we don't know how)
+- We aren't good with C, C++, Java, or any compiled language for that matter (except for eclipse with C#).
+- We are all good with Javascript and Node.js, we know the language pretty well or had a master's degree on it.
+- Even if we did choose a compiled language (ex. C++), we'd still suck at it because we can't compile to multiple platforms. (We can, it's just that we don't know how.)
 
 ### Why Python/Lua?
-At first, Eclipse loved the idea of Lua's simplicity and C++. Julian didn't really like how we were making a scripting language based of off Lua. We argued for a bit and eventually landed with Lua's simplicity and Python's syntax
+At first, Eclipse loved the idea of Lua's simplicity and C++. Julian didn't really like how we were making a scripting language based of off Lua. We argued for a bit and eventually landed with Lua's simplicity and Python's syntax.
