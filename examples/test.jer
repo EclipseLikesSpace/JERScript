@@ -44,6 +44,6 @@ e=(d)->{
 
 f=floor(random(0 1))
 write(e(f) "is the best at programming!")
-if(eq(true true) ()->write("Test") ()->write("Test2"))
+//if(eq(true true) ()->write("Test") ()->write("Test2"))
 
 write(tl_test("Testing out a"))
