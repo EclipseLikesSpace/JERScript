@@ -1,1 +1,3 @@
-dGxfdGVzdCA9IGZ1bmN0aW9uICh0ZXN0KXsKcmV0dXJuIGNvbmNhdCh0ZXN0LCAiIGxpYnJhcnkhIikKfTs=
+tl_test = function (test){
+return concat(test, " library!")
+};
