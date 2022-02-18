@@ -45,4 +45,4 @@ e>(d)->{
 f>floor(random(0 1))
 write(e(f) "is the best at programming!")
 
-write(tl_test("Testing out a"))
+// write(tl_test("Testing out a"))
