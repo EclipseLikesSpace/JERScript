@@ -11,7 +11,7 @@
 # JERscript
 A [scripting language](https://www.google.com/search?q=scripting+language) inspired by [Lua](https://github.com/lua/lua)'s simplicity and [Python](https://www.python.org/) syntax completely made in [Javascript](https://nodejs.org/en/), with [Moo](https://www.npmjs.com/package/moo) and [Nearley](https://www.npmjs.com/package/nearley)!
 
-Feel free to contribute, make sure to star, fork and watch!
+Feel free to contribute, make sure to [star](https://github.com/JERScript/JERscript/stargazers), [fork](https://github.com/JERScript/JERscript/fork) and [watch](https://github.com/JERScript/JERscript/watchers)!
 
 ## License
 We use the [MIT](https://github.com/JERScript/JERscript/blob/master/LICENSE) license. This means that you are free to modify and/or distribute JERscript. You can also use it in other software, which can be open or closed source. The only requirement is that you include the copyright and license notice in your product. The JERscript developers are not liable for JERscript, and offer no warranty. This is not legal advice, see the full details in the [LICENSE](https://github.com/JERScript/JERscript/blob/master/LICENSE) file (it's very short).
