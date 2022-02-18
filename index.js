@@ -17,6 +17,7 @@ const yargs = require("yargs");
 
 const fs = require('fs');
 const { parse } = require('path');
+const { arg } = require('mathjs');
 let argv = yargs(process.argv.slice(2))
   .option("file", {
     alias: "f",
@@ -34,8 +35,13 @@ let argv = yargs(process.argv.slice(2))
   const ast = parser(data);
   let isCompiled = false
   if (argv.output) {
-    isCompiled = true
+    if ((argv.output).endsWith(".jerc")) {
+      isCompiled = true
+    }else{
+      console.log("Warning: File must end with .jerc (JER Compiled Library)")
+      return 1
+    }
   }
-
+  
   generator(ast, isCompiled, argv.output);
 })();
