@@ -14,7 +14,7 @@ A [scripting language](https://www.google.com/search?q=scripting+language) inspi
 Feel free to contribute, make sure to star, fork and watch!
 
 ## License
-MIT
+We use the [MIT](https://github.com/JERScript/JERscript/blob/master/LICENSE) license. This means that you are free to modify and/or distribute JERscript. You can also use it in other software, which can be open or closed source. The only requirement is that you include the copyright and license notice in your product. The JERscript developers are not liable for JERscript, and offer no warranty. This is not legal advice, see the full details in the [LICENSE](https://github.com/JERScript/JERscript/blob/master/LICENSE) file (it's very short).
 
 ## Roadmap
 - Object Oriented Programming
