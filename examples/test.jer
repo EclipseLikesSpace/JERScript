@@ -34,8 +34,8 @@ circumfrence = (diameter) ->{
 write(x)
 write(circumfrence(2))
 
-d = [ "Test" "Test2"]
-write(d)
+d = ["Test" "Test2"]
+write(getValueFromIndex(d 1))
 
 
 e=(d)->{
