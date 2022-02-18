@@ -1,4 +1,4 @@
-![Thumbnail](images/jerscript_thumb.png)
+[![Thumbnail](images/jerscript_thumb.png)](https://github.com/JERScript/JERscript)
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EclipseLikesSpace/JERscript?style=flat-square)](https://github.com/JERScript/JERscript)
 [![GitHub Issue Count](https://img.shields.io/github/issues-raw/JERScript/JERScript?style=flat-square)](https://github.com/JERScript/JERscript/issues)
@@ -57,9 +57,9 @@ It stands for: Julian, Eclipse, Rehan (or RStar, depending on what they think)
 
 ### Why Javascript?
 We chose Javascript because of the 3 main reasons:
-- We aren't good with C, C++, Java, or any compiled language for that matter (Except for eclipse with C#)
-- We are all good with Javascript and Node.js, we knew the language pretty well or had a master's degree on it
-- Even if we did choose a compiled language (example: C++), we'd still suck at it because we can't compile to multiple platforms (We can, it's just that we don't know how)
+- We aren't good with C, C++, Java, or any compiled language for that matter (except for eclipse with C#).
+- We are all good with Javascript and Node.js, we know the language pretty well or had a master's degree on it.
+- Even if we did choose a compiled language (ex. C++), we'd still suck at it because we can't compile to multiple platforms. (We can, it's just that we don't know how.)
 
 ### Why Python/Lua?
-At first, Eclipse loved the idea of Lua's simplicity and C++. Julian didn't really like how we were making a scripting language based of off Lua. We argued for a bit and eventually landed with Lua's simplicity and Python's syntax
+At first, Eclipse loved the idea of Lua's simplicity and C++. Julian didn't really like how we were making a scripting language based of off Lua. We argued for a bit and eventually landed with Lua's simplicity and Python's syntax.
