@@ -1,12 +1,12 @@
 ![Thumbnail](images/jerscript_thumb.png)
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EclipseLikesSpace/JERscript?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues-raw/JERScript/JERScript?style=flat-square)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/JERScript/JERScript?style=flat-square)
-![GitHub](https://img.shields.io/github/license/JERScript/JERScript?style=flat-square)
-![GitHub Repo stars](https://img.shields.io/github/stars/JERScript/JERScript?style=flat-square)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/JERScript/JERScript?style=flat-square)
-![Discord](https://img.shields.io/discord/942973329386655805?label=discord&logo=discord&logoColor=%23ffffff&style=flat-square)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EclipseLikesSpace/JERscript?style=flat-square)](https://github.com/JERScript/JERscript)
+[![GitHub Issue Count](https://img.shields.io/github/issues-raw/JERScript/JERScript?style=flat-square)](https://github.com/JERScript/JERscript/issues)
+[![GitHub PR Count](https://img.shields.io/github/issues-pr/JERScript/JERScript?style=flat-square)](https://github.com/JERScript/JERscript/pulls)
+[![Code License](https://img.shields.io/github/license/JERScript/JERScript?style=flat-square)](https://github.com/JERScript/JERscript/blob/master/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/JERScript/JERScript?style=flat-square)](https://github.com/JERScript/JERscript/stargazers)
+[![Latest Version](https://img.shields.io/github/package-json/v/JERScript/JERScript?style=flat-square)](https://github.com/jerbear2008/JERscript/releases)
+[![Discord](https://img.shields.io/discord/942973329386655805?label=discord&logo=discord&logoColor=%23ffffff&style=flat-square)](https://discord.gg/gCGmraBRQ8)
 
 # JERscript
 A [scripting language](https://www.google.com/search?q=scripting+language) inspired by [Lua](https://github.com/lua/lua)'s simplicity and [Python](https://www.python.org/) syntax completely made in [Javascript](https://nodejs.org/en/), with [Moo](https://www.npmjs.com/package/moo) and [Nearley](https://www.npmjs.com/package/nearley)!
