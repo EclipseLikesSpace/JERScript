@@ -1,4 +1,4 @@
-![Thumbnail](https://github.com/EclipseLikesSpace/JERscript/blob/master/images/jerscript%20thumb.png)
+![Thumbnail](images/jerscript thumb.png)
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EclipseLikesSpace/JERscript?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues-raw/JERScript/JERScript?style=flat-square)
