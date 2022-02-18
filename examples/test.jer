@@ -34,8 +34,8 @@ circumfrence = (diameter) ->{
 write(x)
 write(circumfrence(2))
 
-//d > [ "Test" "Test2"]
-//write(getArrayLength(d))
+d = [ "Test" "Test2"]
+write(d)
 
 
 e=(d)->{
@@ -47,7 +47,4 @@ write(e(f) "is the best at programming!")
 
 // write(tl_test("Testing out a"))
 
-if(eq(true true)
-()->write("Test")
-()->write("Test2")
-)
+if(eq(true true) ()->write("Test") ()->write("Test2"))

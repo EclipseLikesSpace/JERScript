@@ -68,8 +68,19 @@ expr
     | %identifier {% id %}
     | %boolean {% id %}
     | fun_call {% id %}
-    | arrays {% id %}
+    | array {% id %}
     | lambda {% id %}
+
+array
+    -> %lbracket _ml (arg_list _ml):? %rbracket
+        {%
+            (data) => {
+                return {
+                    type: "arrays",
+                    arguments: data[2] ? data[2][0]: []
+                }
+            }
+        %}
 
 use -> "use" _ ":" _ %string _
     {%
