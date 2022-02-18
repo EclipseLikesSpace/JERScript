@@ -20,6 +20,7 @@ statements
 statement
     -> var_assign {% id %}
     | fun_call {% id %}
+    | use {% id %}
     | %comment {% id %}
 
 var_assign
@@ -79,6 +80,16 @@ expr
     | fun_call {% id %}
     | arrays {% id %}
     | lambda {% id %}
+
+use -> "use" __ %string _
+    {%
+        (data) => {
+            return {
+                "type": "use",
+                "module": data[2]
+            }
+        }
+    %}
 
 arrays -> %lbracket _ (expr _):* %rbracket
     {%
