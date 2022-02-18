@@ -1,18 +1,18 @@
 // use the test library
-use "test.jerc"
+use:"test.jerc"
 
 // Fibonacci Sequence
 
-fib > (n)->{
+fib = (n)->{
     // Initalize the functions
 
     // A returns one, as the final statement in a lambda function is always a return
-    a>()->1
+    a=()->1
     // If statement to check if N is equal to 2, go to A otherwise go to C
-    b>()-> {
+    b=()-> {
         if (eq(n 2) a c)
     }
-    c>()->{
+    c=()->{
         math(fib(math(n "-1")) "+" fib(math(n "-2")))
     }
 
@@ -20,14 +20,14 @@ fib > (n)->{
     if (eq(n 1) a b)
 }
 
-i>0
+i=0
 repeat(10 ()->{
-    i>math(concat(i "+ 1"))
+    i=math(concat(i "+ 1"))
     write(fib(i))
 })
-x>true
+x=true
 
-circumfrence > (diameter) ->{
+circumfrence = (diameter) ->{
     math(diameter "* pi")
 }
 
@@ -38,11 +38,16 @@ write(circumfrence(2))
 //write(getArrayLength(d))
 
 
-e>(d)->{
+e=(d)->{
     if(eq(d 1) ()->self("eclipse") ()->self("rehan") )
 }
 
-f>floor(random(0 1))
+f=floor(random(0 1))
 write(e(f) "is the best at programming!")
 
 // write(tl_test("Testing out a"))
+
+if(eq(true true)
+()->write("Test")
+()->write("Test2")
+)

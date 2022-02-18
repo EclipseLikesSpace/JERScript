@@ -46,16 +46,6 @@ fun_call
                 }
             }
         %}
-    | %identifier _ %lparen _ %rparen
-        {%
-            (data) => {
-                return {
-                    type: "fun_call",
-                    fun_name: data[0],
-                    arguments: []
-                }
-            }
-        %}
 
 arg_list
     -> expr
@@ -81,22 +71,12 @@ expr
     | arrays {% id %}
     | lambda {% id %}
 
-use -> "use" __ %string _
+use -> "use" _ ":" _ %string _
     {%
         (data) => {
             return {
                 "type": "use",
-                "module": data[2]
-            }
-        }
-    %}
-
-arrays -> %lbracket _ (__ expr):* %rbracket
-    {%
-        (data) => {
-            return {
-                type: "arrays",
-                elements: data[2] ? data[2][0]: []
+                "module": data[4]
             }
         }
     %}
