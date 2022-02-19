@@ -32,10 +32,18 @@ let argv = yargs(process.argv.slice(2))
 
 (async () => {
   const data = ((await fs.readFileSync(argv.file, "utf8")).toString());
-  console.log(data)
   const ast = parser(data);
-  console.log(ast)
+  let isCompiled = false
   
-  generator(ast, false, null);
+  if (argv.output) {
+    if ((argv.output).endsWith(".jerc")) {
+      isCompiled = true
+    }else{
+      console.log("Warning: File must end with .jerc (JER Compiled Library)")
+      return 1
+    }
+  }
+  
+  generator(ast, isCompiled, argv.output);
   //generator(ast, isCompiled, argv.output);
 })();
