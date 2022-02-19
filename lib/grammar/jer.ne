@@ -82,6 +82,15 @@ array
             }
         %}
 
+break -> %break
+    {%
+        (data) => {
+            return {
+                type: "break"
+            }
+        }
+    %}
+
 use -> "use" _ ":" _ %string _
     {%
         (data) => {

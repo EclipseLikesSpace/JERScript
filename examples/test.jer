@@ -46,4 +46,10 @@ f=floor(random(0 1))
 write(e(f) "is the best at programming!")
 //if(eq(true true) ()->write("Test") ()->write("Test2"))
 
+// Expected output: Testing out a library
 write(tl_test("Testing out a"))
+
+// Returns a budget error, max 1000. Don't stress it!
+//while(true ()->{
+//    write("Hello World")
+//})
